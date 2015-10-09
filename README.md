@@ -9,7 +9,7 @@ In console, navigate to the local repo and start up the virtual machine.
 * `vagrant up`
 
 View the site in your browser.
-* `localhost:8080`
+* [localhost:8080](http://localhost:8080/)
 
 ## Tools & Technologies Used
 * Angular.js
