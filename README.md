@@ -2,14 +2,14 @@
 
 ## Setup
 Ensure the required software is installed.
-* Vagrant
-* VirtualBox
+* [Vagrant](https://www.vagrantup.com/downloads.html) (~1.7.4)
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) (~5.0.6)
 
 In console, navigate to the local repo and start up the virtual machine.
 * `vagrant up`
 
 View the site in your browser.
-* [localhost:3000](localhost:3000)
+* `localhost:8080`
 
 ## Tools & Technologies Used
 * Angular.js
