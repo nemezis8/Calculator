@@ -1,1 +1,1 @@
-# [Project - JavaScript Calculator](http://www.freecodecamp.com/challenges/zipline-build-a-javascript-calculator)
+[FreeCodeCamp Project - JavaScript Calculator](http://www.freecodecamp.com/challenges/zipline-build-a-javascript-calculator)
