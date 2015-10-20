@@ -27,8 +27,8 @@ app.controller('CalculatorController', function() {
   };
 
   // The clear button is pressed.
-  this.inputClear = function() {
-
+  this.inputClear = function() { 
+//
   };
 
   // The equals button is pressed.
