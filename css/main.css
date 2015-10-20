@@ -95,7 +95,85 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html, body {
+  height: 100%;
+}
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+#calculator {
+  border: solid black 2px;
+  padding: 6px;
+  background: #171717;
+}
+
+#calculator > * {
+  padding: 2px;
+}
+
+button {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border: solid black 1px;
+  background: #EEE;
+}
+
+button:hover {
+  background: #D2D2D2;
+}
+
+button:active {
+  background: #C4C4C4;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#display {
+  border: solid #DDD 1px;
+  text-align: right;
+  padding: 4px;
+  margin-bottom: 8px;
+  background: #FBFBFB;
+  overflow: hidden;
+}
+
+#outputHistory, #output {
+  font-weight: normal;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+#outputHistory {
+  font-size: 0.8rem;
+}
+
+#clear {
+  color: #EE2F2F;
+}
+
+#equals, #plus {
+  height: 84px;
+  padding-top: 46px;
+  margin-top: -46px;
+}
+
+#equals span, #plus span {
+  position: relative;
+  top: -20px;
+}
+
+#zero {
+  width: 84px;
+}
 
 /* ==========================================================================
    Helper classes
